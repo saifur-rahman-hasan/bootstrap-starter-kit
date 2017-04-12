@@ -15,16 +15,18 @@
 
 */
 
-/*
-	# Google Font Families
-	------------------------------------------
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Roboto Slab', serif;
-	font-family: 'Ubuntu', sans-serif;
-	font-family: 'Titillium Web', sans-serif;
-	font-family: 'Lobster', cursive;
-*/
+/* Fonts */
+.font-Roboto{ font-family: 'Roboto', sans-serif; }
+.font-Ubuntu{ font-family: 'Ubuntu', sans-serif; }
+.font-Raleway{ font-family: 'Raleway', sans-serif; }
+.font-Titillium_Web{ font-family: 'Titillium Web', sans-serif; }
+/*#############################################################*/
 
-
+/* Icons */
 .fa{ vertical-align: middle; }
+/*##########################*/
+
+/* Helper Classes */
+.center-x{ position: absolute; left: 50%; transform: translateX(-50%);  }
+.center-y{ position: absolute; top: 50%; transform: translateY(-50%); }
+.center-xy{ position: absolute; top: 50%; left: 50%; transform: translate(50%, -50%); }
